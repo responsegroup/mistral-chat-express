@@ -9,6 +9,14 @@ The API key stays on the server; the browser only talks to the local backend.
 - Node.js 18 or newer
 - A Mistral API key from [console.mistral.ai](https://console.mistral.ai)
 
+## Quick start (double-click)
+
+- Windows: double-click `start.bat`
+- macOS / Linux: double-click `start.command` (or run `./start.command` in a terminal)
+
+The script installs dependencies if needed, makes sure `.env` exists, opens
+http://localhost:3000 in your browser, and starts the server.
+
 ## Install dependencies
 
 ```bash
